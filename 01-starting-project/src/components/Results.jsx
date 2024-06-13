@@ -1,5 +1,8 @@
+import {calculateInvestmentResults} from '../util/investment.js';
+
 export default function Restults({input}){
-    console.log(input);
+    const resultsData=calculateInvestmentResults(input);
+    console.log(resultsData);
     return (
         <p>Results coming soon</p>
     );
